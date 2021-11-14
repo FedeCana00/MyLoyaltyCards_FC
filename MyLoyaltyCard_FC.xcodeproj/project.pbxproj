@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E84B1A3826446A3200DDD1AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E84B1A3726446A3200DDD1AD /* AppDelegate.m */; };
+		E84B1A3E26446A3300DDD1AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E84B1A3C26446A3300DDD1AD /* Main.storyboard */; };
+		E84B1A4026446A3500DDD1AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E84B1A3F26446A3500DDD1AD /* Assets.xcassets */; };
+		E84B1A4326446A3500DDD1AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E84B1A4126446A3500DDD1AD /* LaunchScreen.storyboard */; };
+		E84B1A4626446A3500DDD1AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E84B1A4526446A3500DDD1AD /* main.m */; };
+		E84B1A5026446A3500DDD1AD /* MyLoyaltyCard_FCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E84B1A4F26446A3500DDD1AD /* MyLoyaltyCard_FCTests.m */; };
+		E84B1A5B26446A3500DDD1AD /* MyLoyaltyCard_FCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E84B1A5A26446A3500DDD1AD /* MyLoyaltyCard_FCUITests.m */; };
+		E84B1A6A26446AC600DDD1AD /* CardsListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E84B1A6926446AC600DDD1AD /* CardsListTableViewController.m */; };
+		E84B1A6F26446C1F00DDD1AD /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = E84B1A6E26446C1F00DDD1AD /* Card.m */; };
+		E84B1A722644729400DDD1AD /* CardDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E84B1A712644729400DDD1AD /* CardDetailTableViewController.m */; };
+		E84F23B12645DFEB00455A88 /* AddCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E84F23B02645DFEB00455A88 /* AddCardViewController.m */; };
+		E855C6222646BDF500EFA9B4 /* CardList.m in Sources */ = {isa = PBXBuildFile; fileRef = E855C6212646BDF500EFA9B4 /* CardList.m */; };
+		E855C6262646C12900EFA9B4 /* OperationCardDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E855C6252646C12900EFA9B4 /* OperationCardDataSource.m */; };
+		E862D1CE26455EAE001DF789 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E862D1CD26455EAE001DF789 /* CardViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E84B1A4C26446A3500DDD1AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E84B1A2B26446A3200DDD1AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E84B1A3226446A3200DDD1AD;
+			remoteInfo = MyLoyaltyCard_FC;
+		};
+		E84B1A5726446A3500DDD1AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E84B1A2B26446A3200DDD1AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E84B1A3226446A3200DDD1AD;
+			remoteInfo = MyLoyaltyCard_FC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E84B1A3326446A3200DDD1AD /* MyLoyaltyCard_FC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLoyaltyCard_FC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84B1A3626446A3200DDD1AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E84B1A3726446A3200DDD1AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E84B1A3D26446A3300DDD1AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E84B1A3F26446A3500DDD1AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E84B1A4226446A3500DDD1AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E84B1A4426446A3500DDD1AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E84B1A4526446A3500DDD1AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E84B1A4B26446A3500DDD1AD /* MyLoyaltyCard_FCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLoyaltyCard_FCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84B1A4F26446A3500DDD1AD /* MyLoyaltyCard_FCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLoyaltyCard_FCTests.m; sourceTree = "<group>"; };
+		E84B1A5126446A3500DDD1AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E84B1A5626446A3500DDD1AD /* MyLoyaltyCard_FCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLoyaltyCard_FCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84B1A5A26446A3500DDD1AD /* MyLoyaltyCard_FCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLoyaltyCard_FCUITests.m; sourceTree = "<group>"; };
+		E84B1A5C26446A3500DDD1AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E84B1A6826446AC600DDD1AD /* CardsListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardsListTableViewController.h; sourceTree = "<group>"; };
+		E84B1A6926446AC600DDD1AD /* CardsListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardsListTableViewController.m; sourceTree = "<group>"; };
+		E84B1A6D26446C1F00DDD1AD /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Card.h; path = MyLoyaltyCard_FC/Card.h; sourceTree = "<group>"; };
+		E84B1A6E26446C1F00DDD1AD /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = MyLoyaltyCard_FC/Card.m; sourceTree = "<group>"; };
+		E84B1A702644729400DDD1AD /* CardDetailTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CardDetailTableViewController.h; path = MyLoyaltyCard_FC/Controller/CardDetailTableViewController.h; sourceTree = "<group>"; };
+		E84B1A712644729400DDD1AD /* CardDetailTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CardDetailTableViewController.m; path = MyLoyaltyCard_FC/Controller/CardDetailTableViewController.m; sourceTree = "<group>"; };
+		E84F23AF2645DFEB00455A88 /* AddCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AddCardViewController.h; path = MyLoyaltyCard_FC/Controller/AddCardViewController.h; sourceTree = "<group>"; };
+		E84F23B02645DFEB00455A88 /* AddCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AddCardViewController.m; path = MyLoyaltyCard_FC/Controller/AddCardViewController.m; sourceTree = "<group>"; };
+		E855C6202646BDF500EFA9B4 /* CardList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CardList.h; path = MyLoyaltyCard_FC/CardList.h; sourceTree = "<group>"; };
+		E855C6212646BDF500EFA9B4 /* CardList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CardList.m; path = MyLoyaltyCard_FC/CardList.m; sourceTree = "<group>"; };
+		E855C6232646C0A900EFA9B4 /* CardDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CardDataSource.h; path = MyLoyaltyCard_FC/CardDataSource.h; sourceTree = "<group>"; };
+		E855C6242646C12900EFA9B4 /* OperationCardDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OperationCardDataSource.h; path = MyLoyaltyCard_FC/OperationCardDataSource.h; sourceTree = "<group>"; };
+		E855C6252646C12900EFA9B4 /* OperationCardDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OperationCardDataSource.m; path = MyLoyaltyCard_FC/OperationCardDataSource.m; sourceTree = "<group>"; };
+		E862D1CC26455EAE001DF789 /* CardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		E862D1CD26455EAE001DF789 /* CardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E84B1A3026446A3200DDD1AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84B1A4826446A3500DDD1AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84B1A5326446A3500DDD1AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E84B1A2A26446A3200DDD1AD = {
+			isa = PBXGroup;
+			children = (
+				E84B1A6C26446BDC00DDD1AD /* Model */,
+				E84B1A6B26446AD200DDD1AD /* Controller */,
+				E84B1A3526446A3200DDD1AD /* MyLoyaltyCard_FC */,
+				E84B1A4E26446A3500DDD1AD /* MyLoyaltyCard_FCTests */,
+				E84B1A5926446A3500DDD1AD /* MyLoyaltyCard_FCUITests */,
+				E84B1A3426446A3200DDD1AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E84B1A3426446A3200DDD1AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E84B1A3326446A3200DDD1AD /* MyLoyaltyCard_FC.app */,
+				E84B1A4B26446A3500DDD1AD /* MyLoyaltyCard_FCTests.xctest */,
+				E84B1A5626446A3500DDD1AD /* MyLoyaltyCard_FCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E84B1A3526446A3200DDD1AD /* MyLoyaltyCard_FC */ = {
+			isa = PBXGroup;
+			children = (
+				E84B1A3626446A3200DDD1AD /* AppDelegate.h */,
+				E84B1A3726446A3200DDD1AD /* AppDelegate.m */,
+				E84B1A3C26446A3300DDD1AD /* Main.storyboard */,
+				E84B1A3F26446A3500DDD1AD /* Assets.xcassets */,
+				E84B1A4126446A3500DDD1AD /* LaunchScreen.storyboard */,
+				E84B1A4426446A3500DDD1AD /* Info.plist */,
+				E84B1A4526446A3500DDD1AD /* main.m */,
+			);
+			path = MyLoyaltyCard_FC;
+			sourceTree = "<group>";
+		};
+		E84B1A4E26446A3500DDD1AD /* MyLoyaltyCard_FCTests */ = {
+			isa = PBXGroup;
+			children = (
+				E84B1A4F26446A3500DDD1AD /* MyLoyaltyCard_FCTests.m */,
+				E84B1A5126446A3500DDD1AD /* Info.plist */,
+			);
+			path = MyLoyaltyCard_FCTests;
+			sourceTree = "<group>";
+		};
+		E84B1A5926446A3500DDD1AD /* MyLoyaltyCard_FCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E84B1A5A26446A3500DDD1AD /* MyLoyaltyCard_FCUITests.m */,
+				E84B1A5C26446A3500DDD1AD /* Info.plist */,
+			);
+			path = MyLoyaltyCard_FCUITests;
+			sourceTree = "<group>";
+		};
+		E84B1A6B26446AD200DDD1AD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E84F23AF2645DFEB00455A88 /* AddCardViewController.h */,
+				E84F23B02645DFEB00455A88 /* AddCardViewController.m */,
+				E862D1CC26455EAE001DF789 /* CardViewController.h */,
+				E862D1CD26455EAE001DF789 /* CardViewController.m */,
+				E84B1A702644729400DDD1AD /* CardDetailTableViewController.h */,
+				E84B1A712644729400DDD1AD /* CardDetailTableViewController.m */,
+				E84B1A6826446AC600DDD1AD /* CardsListTableViewController.h */,
+				E84B1A6926446AC600DDD1AD /* CardsListTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E84B1A6C26446BDC00DDD1AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E84B1A6D26446C1F00DDD1AD /* Card.h */,
+				E84B1A6E26446C1F00DDD1AD /* Card.m */,
+				E855C6202646BDF500EFA9B4 /* CardList.h */,
+				E855C6212646BDF500EFA9B4 /* CardList.m */,
+				E855C6232646C0A900EFA9B4 /* CardDataSource.h */,
+				E855C6242646C12900EFA9B4 /* OperationCardDataSource.h */,
+				E855C6252646C12900EFA9B4 /* OperationCardDataSource.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E84B1A3226446A3200DDD1AD /* MyLoyaltyCard_FC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84B1A5F26446A3600DDD1AD /* Build configuration list for PBXNativeTarget "MyLoyaltyCard_FC" */;
+			buildPhases = (
+				E84B1A2F26446A3200DDD1AD /* Sources */,
+				E84B1A3026446A3200DDD1AD /* Frameworks */,
+				E84B1A3126446A3200DDD1AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLoyaltyCard_FC;
+			productName = MyLoyaltyCard_FC;
+			productReference = E84B1A3326446A3200DDD1AD /* MyLoyaltyCard_FC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E84B1A4A26446A3500DDD1AD /* MyLoyaltyCard_FCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84B1A6226446A3600DDD1AD /* Build configuration list for PBXNativeTarget "MyLoyaltyCard_FCTests" */;
+			buildPhases = (
+				E84B1A4726446A3500DDD1AD /* Sources */,
+				E84B1A4826446A3500DDD1AD /* Frameworks */,
+				E84B1A4926446A3500DDD1AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E84B1A4D26446A3500DDD1AD /* PBXTargetDependency */,
+			);
+			name = MyLoyaltyCard_FCTests;
+			productName = MyLoyaltyCard_FCTests;
+			productReference = E84B1A4B26446A3500DDD1AD /* MyLoyaltyCard_FCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E84B1A5526446A3500DDD1AD /* MyLoyaltyCard_FCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84B1A6526446A3600DDD1AD /* Build configuration list for PBXNativeTarget "MyLoyaltyCard_FCUITests" */;
+			buildPhases = (
+				E84B1A5226446A3500DDD1AD /* Sources */,
+				E84B1A5326446A3500DDD1AD /* Frameworks */,
+				E84B1A5426446A3500DDD1AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E84B1A5826446A3500DDD1AD /* PBXTargetDependency */,
+			);
+			name = MyLoyaltyCard_FCUITests;
+			productName = MyLoyaltyCard_FCUITests;
+			productReference = E84B1A5626446A3500DDD1AD /* MyLoyaltyCard_FCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E84B1A2B26446A3200DDD1AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Fede Cana";
+				TargetAttributes = {
+					E84B1A3226446A3200DDD1AD = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					E84B1A4A26446A3500DDD1AD = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = E84B1A3226446A3200DDD1AD;
+					};
+					E84B1A5526446A3500DDD1AD = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = E84B1A3226446A3200DDD1AD;
+					};
+				};
+			};
+			buildConfigurationList = E84B1A2E26446A3200DDD1AD /* Build configuration list for PBXProject "MyLoyaltyCard_FC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E84B1A2A26446A3200DDD1AD;
+			productRefGroup = E84B1A3426446A3200DDD1AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E84B1A3226446A3200DDD1AD /* MyLoyaltyCard_FC */,
+				E84B1A4A26446A3500DDD1AD /* MyLoyaltyCard_FCTests */,
+				E84B1A5526446A3500DDD1AD /* MyLoyaltyCard_FCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E84B1A3126446A3200DDD1AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84B1A4326446A3500DDD1AD /* LaunchScreen.storyboard in Resources */,
+				E84B1A4026446A3500DDD1AD /* Assets.xcassets in Resources */,
+				E84B1A3E26446A3300DDD1AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84B1A4926446A3500DDD1AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84B1A5426446A3500DDD1AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E84B1A2F26446A3200DDD1AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84B1A4626446A3500DDD1AD /* main.m in Sources */,
+				E84F23B12645DFEB00455A88 /* AddCardViewController.m in Sources */,
+				E84B1A722644729400DDD1AD /* CardDetailTableViewController.m in Sources */,
+				E855C6222646BDF500EFA9B4 /* CardList.m in Sources */,
+				E855C6262646C12900EFA9B4 /* OperationCardDataSource.m in Sources */,
+				E862D1CE26455EAE001DF789 /* CardViewController.m in Sources */,
+				E84B1A3826446A3200DDD1AD /* AppDelegate.m in Sources */,
+				E84B1A6A26446AC600DDD1AD /* CardsListTableViewController.m in Sources */,
+				E84B1A6F26446C1F00DDD1AD /* Card.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84B1A4726446A3500DDD1AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84B1A5026446A3500DDD1AD /* MyLoyaltyCard_FCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84B1A5226446A3500DDD1AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84B1A5B26446A3500DDD1AD /* MyLoyaltyCard_FCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E84B1A4D26446A3500DDD1AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E84B1A3226446A3200DDD1AD /* MyLoyaltyCard_FC */;
+			targetProxy = E84B1A4C26446A3500DDD1AD /* PBXContainerItemProxy */;
+		};
+		E84B1A5826446A3500DDD1AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E84B1A3226446A3200DDD1AD /* MyLoyaltyCard_FC */;
+			targetProxy = E84B1A5726446A3500DDD1AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E84B1A3C26446A3300DDD1AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E84B1A3D26446A3300DDD1AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E84B1A4126446A3500DDD1AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E84B1A4226446A3500DDD1AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E84B1A5D26446A3600DDD1AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E84B1A5E26446A3600DDD1AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E84B1A6026446A3600DDD1AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSVS6Y92QJ;
+				INFOPLIST_FILE = MyLoyaltyCard_FC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UNIPR.MyLoyaltyCard-FC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E84B1A6126446A3600DDD1AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSVS6Y92QJ;
+				INFOPLIST_FILE = MyLoyaltyCard_FC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UNIPR.MyLoyaltyCard-FC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E84B1A6326446A3600DDD1AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSVS6Y92QJ;
+				INFOPLIST_FILE = MyLoyaltyCard_FCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UNIPR.MyLoyaltyCard-FCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyLoyaltyCard_FC.app/MyLoyaltyCard_FC";
+			};
+			name = Debug;
+		};
+		E84B1A6426446A3600DDD1AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSVS6Y92QJ;
+				INFOPLIST_FILE = MyLoyaltyCard_FCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UNIPR.MyLoyaltyCard-FCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyLoyaltyCard_FC.app/MyLoyaltyCard_FC";
+			};
+			name = Release;
+		};
+		E84B1A6626446A3600DDD1AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSVS6Y92QJ;
+				INFOPLIST_FILE = MyLoyaltyCard_FCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UNIPR.MyLoyaltyCard-FCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyLoyaltyCard_FC;
+			};
+			name = Debug;
+		};
+		E84B1A6726446A3600DDD1AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSVS6Y92QJ;
+				INFOPLIST_FILE = MyLoyaltyCard_FCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UNIPR.MyLoyaltyCard-FCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyLoyaltyCard_FC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E84B1A2E26446A3200DDD1AD /* Build configuration list for PBXProject "MyLoyaltyCard_FC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84B1A5D26446A3600DDD1AD /* Debug */,
+				E84B1A5E26446A3600DDD1AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84B1A5F26446A3600DDD1AD /* Build configuration list for PBXNativeTarget "MyLoyaltyCard_FC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84B1A6026446A3600DDD1AD /* Debug */,
+				E84B1A6126446A3600DDD1AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84B1A6226446A3600DDD1AD /* Build configuration list for PBXNativeTarget "MyLoyaltyCard_FCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84B1A6326446A3600DDD1AD /* Debug */,
+				E84B1A6426446A3600DDD1AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84B1A6526446A3600DDD1AD /* Build configuration list for PBXNativeTarget "MyLoyaltyCard_FCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84B1A6626446A3600DDD1AD /* Debug */,
+				E84B1A6726446A3600DDD1AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E84B1A2B26446A3200DDD1AD /* Project object */;
+}
